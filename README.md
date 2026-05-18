@@ -57,8 +57,7 @@ Assignment to demonstrate the knowledge of Object Oriented Programming. Language
 void search(string brand);                     // search only by brand
 void search(string brand, double min, double max); // by brand + price
 Justification: Allows caller to choose level of detail – simple brand search or filtered by price.
-
-### 4.2 Polymorphism (continued)
+```
 
 #### Function Overriding (virtual)
 
@@ -78,6 +77,7 @@ class Bike : public Vehicle {
         cout << " | Bike Type: " << bikeType << endl; 
     }
 };
+```
 Justification: Each vehicle type shows its own extra details while reusing the base format – runtime polymorphism.
 
 #### 4.3 Abstraction

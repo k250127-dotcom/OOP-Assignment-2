@@ -8,16 +8,6 @@ Assignment to demonstrate the knowledge of Object Oriented Programming. Language
 
 ---
 
-## 1. Website Inspiration (Screenshots)
-
-| Feature | Screenshot |
-|---------|-------------|
-| Vehicle listing page | ![listing](screenshots/listing.png) |
-| Search / filter | ![search](screenshots/search.png) |
-| User dashboard | ![dashboard](screenshots/dashboard.png) |
-
----
-
 ## 2. System Overview (Classes)
 
 | Class | Role |
@@ -58,7 +48,7 @@ Assignment to demonstrate the knowledge of Object Oriented Programming. Language
 | `Vehicle` → `Bike` | Bike **is a** Vehicle with bike‑type, gears |
 | `ISellable` → `Vehicle`, `Listing` | Anything that can be sold must implement `getPrice()` and `showDetails()`. |
 
-### 4.2 Polymorphism (5 marks)
+### 4.2 Polymorphism
 
 #### Function Overloading
 
@@ -103,7 +93,7 @@ Each header contains only the interface (pure virtual functions). Implementation
 
 Justification: Hides implementation details, forces derived classes to provide concrete behaviour, extensible.
 
-### 4.4 Operator Overloading (7 marks)
+### 4.4 Operator Overloading
 
 | Operator | Class | Purpose | Code |
 |----------|-------|---------|------|
@@ -114,7 +104,7 @@ Justification: Hides implementation details, forces derived classes to provide c
 
 **Justification:** Improves readability – `car1 == car2`, `mp1 + mp2`, `++listing`, `cout << vehicle`.
 
-### 4.5 Friend Functions (5 marks)
+### 4.5 Friend Functions 
 
 | Friend Function | Accesses | Why friend? |
 |----------------|----------|--------------|

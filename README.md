@@ -145,7 +145,7 @@ After removal, marketplace has 1 listings.
 
 ## 6. Updated UML Class Diagram
 
-<img src="uml_diagram.png" alt="UML Diagram" width="600"/>
+![UML](uml_diagram.png)
 
 The diagram includes:
 - All 10 classes from Assignment 1
